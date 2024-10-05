@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+*{
+    font-family: 'Afacad Flux', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #b83c64;
+}
+
+
+
+body{
+    color: #ae6846;
+    background-color: #fdfae7;
+    min-height: 100vh;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: block;
+    max-width: 72vw;
+    margin-top: 10vh;
+    margin-bottom: 30px;
+    background: #e9e5d0;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px;
+    backdrop-filter: blur(11.6px);
+    -webkit-backdrop-filter: blur(11.6px);
+}
+
+#title_text{
+    
+    color:#b83c64;
+    display: block;
+    max-width: 36vw;
+    margin-top: 0vh;
+    margin-bottom: 50px;
+    background: #ddada9;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 0 0px 10px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.imagem img{
+    max-width: 200px;
+}
